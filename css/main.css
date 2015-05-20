@@ -1,0 +1,41 @@
+*{
+ margin: 0;
+ padding: 0;
+ -webkit-transition: all 1s;
+}
+
+
+.editor{
+ position:fixed;
+ top:80%;
+ height:20vh;
+ width:50vw;
+ background-color: #BDBDBD;
+ border: solid;
+ border-width: thin;
+ overflow:hidden;
+ overflow-y:auto;
+ padding-top:1.25em;
+ padding-left:1em;
+ font-family: monospace;
+}
+
+.content{
+ overflow: hidden;
+}
+#html::before{
+ position:absolute;
+ content:"HTML Editor";
+ margin-top:-1em;
+ margin-left:-.75em;
+}
+
+#css::before{
+ position:absolute;
+ content:"CSS Editor";
+ margin-top:-1em;
+ margin-left:-.75em;
+}
+#css{
+ left:50vw;
+}
