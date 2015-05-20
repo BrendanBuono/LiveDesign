@@ -13,4 +13,4 @@ Please fork and submit a pull request
 If you've stumbled upon this right now, good for you :). I'm still getting this up and running, but feel free to look around!
 
 ###Licensing
- Check out licensing info at [LICENSE.md](https://github.com/MasterDurron/LiveDesign/blob/master/LICENSE.md) but TL;DR this project in under an MIT License
+This project in under an MIT License, more information at [LICENSE.md](https://github.com/MasterDurron/LiveDesign/blob/master/LICENSE.md) 
