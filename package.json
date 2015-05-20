@@ -1,0 +1,18 @@
+{
+  "name": "LiveDesign",
+  "version": "0.0.1",
+  "description": "LiveDesign, a live HTML/CSS Editor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MasterDurron/LiveDesign.git"
+  },
+  "author": "Brendan Buono",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MasterDurron/LiveDesign/issues"
+  },
+  "homepage": "https://github.com/MasterDurron/LiveDesign",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
+}
