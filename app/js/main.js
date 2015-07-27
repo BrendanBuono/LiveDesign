@@ -11,12 +11,21 @@
   initialize: function(){
    this.element.contentEditable = true;
    this.element.spellcheck = false;
+
   },
   setText: function(text){
    this.element.innerText = text;
   },
   reload: function(){
-    this.update(this.element.innerText);
+   this.update(this.element.innerText);
+   var caretPosition = window.getSelection().getRangeAt(0);
+   hljs.highlightBlock(this.element);
+   var temp = window.getSelection();
+   if(temp.rangeCount > 0){
+    temp.removeAllRanges();
+   }
+   temp.addRange(caretPosition);
+
   }
  };
 

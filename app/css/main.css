@@ -21,7 +21,8 @@
 }
 
 .content{
- overflow: hidden;
+ overflow: hidden; !important
+ overflow-y: auto; !important
 }
 #html::before{
  position:absolute;

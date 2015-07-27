@@ -19,6 +19,7 @@
     "gulp-jshint": "^1.10.0",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-util": "^3.0.4",
+    "highlight.js": "^8.6.0",
     "lodash.assign": "^3.2.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
